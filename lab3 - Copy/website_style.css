@@ -1,0 +1,68 @@
+
+/* New CSS elements I used:*/
+/*line 34,42,49,etc i used border radius, which creates cute rounded edges for all sorts of elements with a background!*/
+/* line 22: used the text-shadow effect to create a special funky layered title. For each side of the 'box' the text is, you specify pixels. If kept to just the horizontal and vertical axis, this creates a normal shadow, but i wanted to mess it up and i think it looks cool as hell */
+/*line 40,57,66: used the box-shadow which is similar to the text-shadow*/
+*{
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(99, 128, 87);
+    color:beige;
+    border-radius: 8px;
+}
+
+body{
+    padding: 15px;
+    border: 4px solid beige
+}
+
+#mainh1{
+    text-align: center;
+    color:beige;
+    padding: 10px;
+    text-decoration-line: underline;
+    text-shadow: 6px 0 rgb(216, 147, 147), 0 2px rgb(236, 218, 158), 8px 0 rgb(154, 151, 188), 0 4px rgb(35, 88, 29);
+}
+
+.gallery{
+    padding: 15px
+}
+
+img {
+    border: 4px solid rgb(9, 9, 51);
+    border-radius: 8px;
+}
+
+.yellow{
+    padding: 10px;
+    background-color: rgb(236, 218, 158);
+    border-radius: 20px;
+    color: rgb(9, 9, 51);
+    box-shadow: 5px 5px beige
+
+}
+
+.red{
+    padding: 10px;
+    background-color: rgb(178, 90, 90);
+    border-radius: 20px;
+    color:antiquewhite;
+    box-shadow: 5px 5px beige
+
+}
+.green{
+    padding: 10px;
+    background-color: rgb(171, 218, 134);
+    border-radius: 20px;
+    color:rgb(9, 9, 51);
+    box-shadow: 5px 5px beige
+}
+
+.sidebar{
+padding-top: 70px;
+    padding-right:50px;
+    padding-bottom:70px;
+    padding-left:60px;
+    margin:auto;
+    border:5px dotted rgb(237, 224, 192);
+}
+
